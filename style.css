@@ -1,13 +1,13 @@
 body {
-    background-color: #f5d5e5;
+    background-color: #f3e8ff;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    color: #333;
+    color: #2d1b4e;
     text-align: center;
     padding: 20px;
 }
 
 h1 {
-    color: #c72c7a;
+    color: #6a0dad;
     font-size: 2.5em;
 }
 
@@ -16,7 +16,7 @@ img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border: 5px solid #bd2772;
+    border: 5px solid #7b1fa2;
 }
 
 p, ul {
@@ -26,7 +26,42 @@ p, ul {
 }
 
 a {
-    color: #bd2772;
+    color: #7b1fa2;
     text-decoration: none;
     font-weight: bold;
+}
+
+h2 {
+    color: #6a0dad; /* A mesma cor do título principal, para manter a consistência */
+    font-size: 2em;
+    margin-top: 40px; /* Adiciona um bom espaço acima da seção */
+    border-bottom: 2px solid #b388eb; /* Adiciona uma linha sutil para separar o conteúdo */
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none; /* Remove os marcadores de bolinha padrão da lista */
+    padding: 0;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+li {
+    background-color: #fff; /* Fundo branco para cada item de projeto */
+    border-radius: 8px; /* Cantos levemente arredondados */
+    padding: 20px;
+    margin-bottom: 20px; /* Espaço entre um projeto e outro */
+    box-shadow: 0 4px 8px rgba(106, 13, 173, 0.2); /* Sombra suave para dar profundidade */
+    text-align: left; /* Alinha o texto à esquerda para facilitar a leitura */
+}
+
+h4 a {
+    color: #8e24aa; /* Define a cor azul para os links */
+    text-decoration: none ; /* Remove o sublinhado */
+    font-size: 1.5em;
+    transition: color 0.3s ease; /* Adiciona uma transição suave para o efeito de hover */
+}
+
+h4 a:hover {
+    color: #4a148c; /* Cor mais escura quando o mouse passa por cima */
 }
